@@ -18,11 +18,19 @@ window.addEventListener('load', () => {
     });
 });
 
-// Show the first image
-gsap.to("#imagePath", {duration: 1, opacity: 1});
 
-// Show the second image after a delay (e.g., 1.5 seconds)
-gsap.to("#secondImage", {delay: 1.5, duration: 1, opacity: 1});
+// Show the first image with a fade-in and slight scale
+gsap.to("#imagePath", {duration: 1, opacity: 1, scale: 1, ease: "power2.out"});
+
+// After a short delay, show the second image with a cute pop effect
+gsap.to("#secondImage", {
+  delay: 1.2,
+  duration: 0.8,
+  opacity: 1,
+  scale: 1.05,
+  ease: "back.out(1.7)"
+});
+
 // animation timeline
 const animationTimeline = () => {
     // split chars that needs to be animated individually
