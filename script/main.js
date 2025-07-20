@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
     });
 });
 
-
+gsap.to("#secondImage", {delay: 1, duration: 1, opacity: 1});
 // animation timeline
 const animationTimeline = () => {
     // split chars that needs to be animated individually
