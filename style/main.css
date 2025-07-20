@@ -11,25 +11,7 @@ body {
   visibility: hidden;
 }
 
-.profile-picture {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  transition: opacity 0.6s, transform 0.6s;
-  z-index: 1;
-}
 
-.six {
-  position: relative;
-  width: 350px; /* or your image width */
-  height: 350px; /* or your image height */
-  margin: 0 auto;
-}
-
-.second-profile {
-  z-index: 2;
-}
 
 .container {
   height: 100vh;
