@@ -18,7 +18,11 @@ window.addEventListener('load', () => {
     });
 });
 
-gsap.to("#secondImage", {delay: 1, duration: 1, opacity: 1});
+// Show the first image
+gsap.to("#imagePath", {duration: 1, opacity: 1});
+
+// Show the second image after a delay (e.g., 1.5 seconds)
+gsap.to("#secondImage", {delay: 1.5, duration: 1, opacity: 1});
 // animation timeline
 const animationTimeline = () => {
     // split chars that needs to be animated individually
