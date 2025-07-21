@@ -1,7 +1,7 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Just a moment to share with you :)',
+        title: 'Ladki, just hit play :)',
         icon: 'warning',
         showCancelButton: false,
         confirmButtonColor: '#3085d6',
